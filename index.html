@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+    <title>motext</title>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width'>
+    <style>
+    body{
+        text-align: center;
+    }
+    p{
+        text-align: left;
+        margin: 0 auto 50px;
+        width: 500px;
+    }
+    #motext1 .wrap{
+        -webkit-transition: left .15s;
+        -moz-transition: left .15s;
+        -ms-transition: left .15s;
+        -o-transition: left .15s;
+        transition: left .15s;
+    }
+    input{
+        margin: 20px auto;
+    }
+    </style>
+    <script src='motext.js'></script>
+</head>
+<body>
+    <h1>motext</h1>
+    <p>motext is a simple function on Vanilla JS for animating text.</br>
+    Press "Click me!" button to run animation.</p>
+    <input type='button' value='Click me!' onclick="var motext1=new motext('#motext1',150);">
+    <p id='motext1'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <input type='button' value='Click me!' onclick="var motext2=new motext('#motext2',250);">
+    <p id='motext2'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <p>project on <a href='https://github.com/EmgrtE/motext'>GitHub</a></p>
+</body>
+</html>
